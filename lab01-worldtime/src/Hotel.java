@@ -22,4 +22,12 @@ public class Hotel {
       temp.setTime(time.plusHours(temp.getZone().getTimezone()-mobilePhone.getZone().getTimezone()));
     }
   }
+
+  public Phone getMobilePhone() {
+    return mobilePhone;
+  }
+
+  public Clock[] getClocks() {
+    return clocks;
+  }
 }
